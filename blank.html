@@ -19,18 +19,19 @@
             margin: 0;
             padding: 0;
         }
-
+        
         #wrapper {
             position: absolute;
             bottom: 0;
             right: 0;
             margin: 10px;
         }
-
+        
         .btn {
             width: 50px;
             height: 50px;
-            border: none;
+            border: 3px solid white;
+            margin: 0 5px;
         }
     </style>
 
@@ -63,9 +64,9 @@
          });
 
          function clear () {
-             btnWhite.style.border = 'none';
-             btnWarm.style.border = 'none';
-             btnGray.style.border = 'none';
+             btnWhite.style.border = '3px solid white';
+             btnWarm.style.border = '3px solid white';
+             btnGray.style.border = '3px solid white';
          }
 
          function select(btn) {
