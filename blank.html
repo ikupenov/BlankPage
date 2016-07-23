@@ -7,8 +7,8 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body style='background-color:white'>
-    <div id='wrapper' style='height: 150px;'>
+<body>
+    <div id='wrapper'>
         <button id='changeBG_white' class='btn' style='background-color: white;'></button>
         <button id='changeBG_warm' class='btn' style='background-color: rgb(253, 246, 227);'></button>
         <button id='changeBG_gray' class='btn' style='background-color: rgb(30, 30, 30);'></button>
@@ -20,11 +20,17 @@
             padding: 0px;
         }
 
+        #wrapper {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            margin: 10px;
+        }
+
         .btn {
             width: 50px;
             height: 50px;
             border: none;
-            margin-top: 20px;
         }
     </style>
 
